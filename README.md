@@ -20,6 +20,9 @@ Or install it yourself as:
 
     $ gem install jquery-hoverIntent-rails
 
+## What's included?
+* jquery.hoverIntent.js
+
 ## Usage
 
 https://github.com/briancherne/jquery-hoverIntent
