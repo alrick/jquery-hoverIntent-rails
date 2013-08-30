@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["alrick.deillon@gmail.com"]
   gem.description   = %q{A wrapper for jquery hoverIntent plugin}
   gem.summary       = %q{Jquery Hover improved}
-  gem.homepage      = "https://github.com/curlyb/jquery-hoverIntent-rails"
+  gem.homepage      = "https://github.com/alrick/jquery-hoverIntent-rails"
   gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($\)
