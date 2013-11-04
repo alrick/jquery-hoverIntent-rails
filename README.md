@@ -20,6 +20,13 @@ Or install it yourself as:
 
     $ gem install jquery-hoverIntent-rails
 
+Next, add the following line to your `application.js` file (after jQuery is included):
+
+    //= require jquery.hoverIntent
+
+Restart your server, and you're good to go.
+
+
 ## What's included?
 * jquery.hoverIntent.js
 
