@@ -1,4 +1,4 @@
-require "jquery-hoverIntent-rails/version"
+require 'jquery-hoverIntent-rails/version'
 
 module Jquery
   module HoverIntent

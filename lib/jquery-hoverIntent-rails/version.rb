@@ -1,7 +1,7 @@
 module Jquery
   module HoverIntent
     module Rails
-      VERSION = "0.0.11"
+      VERSION = '1.8.1'
     end
   end
 end
