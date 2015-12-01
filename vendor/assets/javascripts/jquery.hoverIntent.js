@@ -80,9 +80,13 @@
 
     // triggers given `out` function at configured `timeout` after a mouseleave and clears state
     var delay = function(ev,$el,s,out) {
-        delete $el.data('hoverIntent')[s.id];
-        return out.apply($el[0],[ev]);
-    };
+        var hoverIntent = $el.data('hoverIntent');
+        
+        if (typeof hoverIntent !== 'undefined') {
+            delete hoverIntent[s.id];
+            return out.apply($el[0],[ev]);                
+        } 
+    };    
 
     $.fn.hoverIntent = function(handlerIn,handlerOut,selector) {
         // instance ID, used as a key to store and retrieve state information on an element
